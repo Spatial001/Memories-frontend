@@ -1,0 +1,58 @@
+.commentHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    /* text-align: center; */
+    margin-top: 15px;
+    
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid rgb(208, 206, 206);
+    padding-left: 0.7rem;
+    text-align: left;
+    max-width: 600px;
+    
+   
+}
+.comment1{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: left;
+    max-width: 600px;
+    
+   
+}
+.commentMSG{
+   
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+}
+.commentBTNS{
+    display: flex;
+    text-align: center;
+    
+        
+}
+.replyBTNS{
+    display: flex;
+    justify-content: flex-end;
+}
+.replyBTNS button{
+    color: darkgray;
+}
+.replyCommentWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.reply{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
